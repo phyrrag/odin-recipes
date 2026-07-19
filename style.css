@@ -105,6 +105,19 @@ li:hover {
     box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
+.recipe-item a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #f58f50;
+}
+
+a:active {
+    color: black;
+}
+
 .recipe-item img {
     width: 256px;
     height: 200px;
@@ -113,6 +126,7 @@ li:hover {
 .recipe-item #bookmark-icon {
     height: 32px;
     width: 32px;
+    cursor: pointer;
 }
 
 .recipe-item .recipe-iteminfo {
